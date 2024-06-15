@@ -1,0 +1,1 @@
+Provides a mechanism to produce families of related objects without specifying their concrete types.

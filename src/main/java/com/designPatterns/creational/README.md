@@ -1,0 +1,1 @@
+Provides object creation mechanisms for the purpose of increasing flexibility and reusing code.
