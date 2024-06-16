@@ -2,13 +2,13 @@ package com.designPatterns.creational.builder;
 
 public class House {
 
-    private int windows;
-    private int doors;
-    private int rooms;
-    private boolean hasGarage;
-    private boolean hasSwimmingPool;
-    private boolean hasStatues;
-    private boolean hasGarden;
+    private final int windows;
+    private final int doors;
+    private final int rooms;
+    private final boolean hasGarage;
+    private final boolean hasSwimmingPool;
+    private final boolean hasStatues;
+    private final boolean hasGarden;
 
     private House(Builder builder) {
         this.windows = builder.windows;
