@@ -1,0 +1,1 @@
+Uses a set of initialized objects kept ready to use rather than creating new objects on demand.
