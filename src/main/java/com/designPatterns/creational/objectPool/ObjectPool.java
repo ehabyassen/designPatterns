@@ -14,7 +14,7 @@ public class ObjectPool<T> {
         }
     }
 
-    public T createNew(Class<T> type) {
+    private T createNew(Class<T> type) {
         try {
             return type.getDeclaredConstructor().newInstance();
         } catch (Exception e) {
