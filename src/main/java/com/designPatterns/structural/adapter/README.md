@@ -1,0 +1,1 @@
+Allows objects of incompatible interfaces to collaborate together.
