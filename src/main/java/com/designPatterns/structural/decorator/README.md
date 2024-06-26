@@ -1,0 +1,1 @@
+Lets you add new behaviors to objects by placing these objects into special wrappers.
