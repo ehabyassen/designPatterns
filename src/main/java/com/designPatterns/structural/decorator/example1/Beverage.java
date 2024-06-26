@@ -1,4 +1,4 @@
-package com.designPatterns.structural.decorator;
+package com.designPatterns.structural.decorator.example1;
 
 public abstract class Beverage {
 
