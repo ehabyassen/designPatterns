@@ -1,0 +1,1 @@
+Provides a simplified interface to complex set of classes.
