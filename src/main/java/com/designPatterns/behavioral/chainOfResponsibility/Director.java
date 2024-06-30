@@ -2,10 +2,6 @@ package com.designPatterns.behavioral.chainOfResponsibility;
 
 public class Director extends Handler {
 
-    protected Director() {
-        successor = new VP();
-    }
-
     @Override
     public void handleRequest(Request request) {
         if (request.getRequestType().equals(RequestType.CONFERENCE)) {
