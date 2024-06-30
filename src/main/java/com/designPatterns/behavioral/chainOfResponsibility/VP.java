@@ -12,11 +12,11 @@ public class VP extends Handler {
             if (((BudgetRequest) request).getAmount() <= 1500) {
                 System.out.println("VP can approve budget request with amount up to 1500...");
             } else {
-                System.out.println("Passing request up the chain...");
+                System.out.println("VP can approve budget request with amount up to 1500. Passing request up the chain...");
                 successor.handleRequest(request);
             }
         } else {
-            System.out.println("Passing request up the chain...");
+            System.out.println("VP can approve only budget requests. Passing request up the chain...");
             successor.handleRequest(request);
         }
     }
