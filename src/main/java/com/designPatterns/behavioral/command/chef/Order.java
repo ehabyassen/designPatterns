@@ -1,6 +1,6 @@
 package com.designPatterns.behavioral.command.chef;
 
-//The Command
+//Concrete Command
 public class Order implements Command {
 
     private final Chef chef;
