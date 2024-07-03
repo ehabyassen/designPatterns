@@ -1,8 +1,8 @@
 package com.designPatterns.behavioral.iterator;
 
-public interface Iterator {
+public interface Iterator<T> {
 
-    String next();
+    T next();
 
     boolean hasNext();
 }

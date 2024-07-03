@@ -1,6 +1,6 @@
 package com.designPatterns.behavioral.iterator;
 
-public interface Iterable {
+public interface Iterable<T> {
 
-    Iterator iterator();
+    Iterator<T> iterator();
 }

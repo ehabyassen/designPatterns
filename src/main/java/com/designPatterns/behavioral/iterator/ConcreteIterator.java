@@ -2,18 +2,18 @@ package com.designPatterns.behavioral.iterator;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ConcreteIterator implements Iterator {
+public class ConcreteIterator<T> implements Iterator<T> {
 
-    private final Collection collection;
+    private final Collection<T> collection;
     private final AtomicInteger index;
 
-    public ConcreteIterator(Collection collection) {
+    public ConcreteIterator(Collection<T> collection) {
         this.collection = collection;
         index = new AtomicInteger();
     }
 
     @Override
-    public String next() {
+    public T next() {
         return collection.get(index.getAndIncrement());
     }
 
