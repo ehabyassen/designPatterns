@@ -1,0 +1,1 @@
+Lets you traverse a collection without exposing its underlying representation.
