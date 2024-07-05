@@ -1,0 +1,1 @@
+Reduces the communication between objects and force objects to communicate through a mediator object.
