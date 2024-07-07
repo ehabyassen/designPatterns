@@ -1,0 +1,1 @@
+Lets you define a subscription mechanism to notify multiple objects about changes occurring in the observed object.
