@@ -10,5 +10,6 @@ public class Context {
         System.out.println(worker.getNextBook());
         System.out.println(worker.getNextBook());
         System.out.println(worker.getNextBook());
+        System.out.println(worker.getNextBook());
     }
 }

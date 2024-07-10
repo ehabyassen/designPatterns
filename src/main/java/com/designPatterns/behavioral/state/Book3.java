@@ -8,6 +8,6 @@ public class Book3 extends Book {
 
     @Override
     Book nextBook() {
-        return null;
+        return new Book1();
     }
 }

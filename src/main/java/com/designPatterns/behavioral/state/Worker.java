@@ -9,9 +9,7 @@ public class Worker {
     }
 
     public Book getNextBook() {
-        if (currentBook.nextBook() != null) {
-            currentBook = currentBook.nextBook();
-        }
+        currentBook = currentBook.nextBook();
         return currentBook;
     }
 
